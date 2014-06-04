@@ -4,7 +4,10 @@ South==0.8.4
 django-extensions==1.3.7
 factory-boy==2.3.1
 fake-factory==0.4.0
+fuzzywuzzy==0.2
+-e git://github.com/gabrielfalcao/lettuce@1a91684624f338727246302f94953f073a06ba13#egg=lettuce-master
 mock==1.0.1
+selenium==2.42.1
 six==1.6.1
 sure==1.2.7
 wsgiref==0.1.2

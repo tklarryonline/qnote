@@ -40,6 +40,7 @@ DEFAULT_APPS = (
 THIRD_PARTY_APPS = (
     'django_extensions',
     'south',
+    'lettuce.django',
 )
 
 LOCAL_APPS = (
