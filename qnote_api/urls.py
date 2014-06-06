@@ -1,7 +1,7 @@
 '''
 Created by tklarryonline on May 21, 2014.
 '''
-from django.conf.urls import patterns, include, url
+from django.conf.urls import patterns, url
 from qnote_api.views.quote_view import QuoteView
 
 

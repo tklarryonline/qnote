@@ -46,9 +46,14 @@ THIRD_PARTY_APPS = (
 LOCAL_APPS = (
     'qnote',
     'qnote_api',
+    'qnote_web',
 )
 
 INSTALLED_APPS = DEFAULT_APPS + THIRD_PARTY_APPS + LOCAL_APPS
+
+LETTUCE_APPS = (
+    'qnote_web',
+)
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
